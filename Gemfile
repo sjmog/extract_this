@@ -21,6 +21,7 @@ gem "sprockets-es6"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem "haml-rails", "~> 0.9"
 
 group :development do
   gem "quiet_assets"
