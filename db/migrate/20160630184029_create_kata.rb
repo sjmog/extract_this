@@ -1,9 +1,9 @@
 class CreateKata < ActiveRecord::Migration
   def change
-    create_table :kata do |t|
+    create_table :katas do |t|
       t.string :name
       t.text :data
-      t.text :question
+      t.text :specification
       t.integer :difficulty
 
       t.timestamps null: false
